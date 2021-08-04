@@ -89,6 +89,7 @@ ul {
   line-height: 300px;
   background-size: cover;
   filter: grayscale(80%);
+  transition: 0.5s;
 }
 
 .list-interests:hover {
@@ -102,30 +103,26 @@ ul {
   font-size: 1.5em;
 }
 
-#list-skiing {
+#list-skiing, #list-hiking, #list-dogs, #list-reading {
   background-image: url(./images/skiing.jpg);
-  transition: 0.5s;
   grid-column: 1;
   grid-row: 1;
 }
 
 #list-hiking {
   background-image: url(./images/hiking.jpg);
-  transition: 0.5s;
   grid-column: 1;
   grid-row: 2;
 }
 
 #list-dogs {
   background-image: url(./images/dogs.jpg);
-  transition: 0.5s;
   grid-column: 2;
   grid-row: 1;
 }
 
 #list-reading {
   background-image: url(./images/reading.jpg);
-  transition: 0.5s;
   grid-column: 2;
   grid-row: 2;
 }
