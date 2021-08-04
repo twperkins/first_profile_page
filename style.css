@@ -1,0 +1,157 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: rgb(102, 182, 155);
+  font-weight: 300;
+}
+
+a:hover {
+  color: rgb(59, 105, 90);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.header {
+  margin: 50px auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-template-columns: 600px 600px;
+  gap: 10px;
+  grid-auto-rows: 300px;
+  border-bottom: 0.5px solid rgb(59, 105, 90);
+  letter-spacing: 1.5px;
+}
+
+.img-profile {
+  filter: grayscale(80%);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.img-profile:hover {
+  filter: grayscale(20%);
+  color: grey;
+  box-shadow: 5px 5px 20px;
+}
+
+.interest-header {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.interests {
+  margin: 50px auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-template-columns: 600px 600px;
+  gap: 10px;
+  grid-auto-rows: 300px;
+}
+
+.list-interests {
+  width: 600px;
+  height: 300px;
+  line-height: 300px;
+  background-size: cover;
+  filter: grayscale(80%);
+}
+
+.list-interests:hover {
+  filter: grayscale(20%);
+  color: grey;
+  box-shadow: 5px 5px 20px;
+}
+
+.list-text {
+  color: white;
+  font-size: 1.5em;
+}
+
+#list-skiing {
+  background-image: url(./images/skiing.jpg);
+  transition: 0.5s;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#list-hiking {
+  background-image: url(./images/hiking.jpg);
+  transition: 0.5s;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#list-dogs {
+  background-image: url(./images/dogs.jpg);
+  transition: 0.5s;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#list-reading {
+  background-image: url(./images/reading.jpg);
+  transition: 0.5s;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.footer {
+  width: 200px;
+  margin: 50px auto;
+  align-content: center;
+  border-top: 0.5px solid rgb(59, 105, 90);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
