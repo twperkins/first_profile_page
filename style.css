@@ -104,25 +104,25 @@ ul {
 }
 
 #list-skiing, #list-hiking, #list-dogs, #list-reading {
-  background-image: url(./images/skiing.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/skiing.jpg);
   grid-column: 1;
   grid-row: 1;
 }
 
 #list-hiking {
-  background-image: url(./images/hiking.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/hiking.jpg);
   grid-column: 1;
   grid-row: 2;
 }
 
 #list-dogs {
-  background-image: url(./images/dogs.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/dogs.jpg);
   grid-column: 2;
   grid-row: 1;
 }
 
 #list-reading {
-  background-image: url(./images/reading.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/reading.jpg);
   grid-column: 2;
   grid-row: 2;
 }
